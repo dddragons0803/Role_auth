@@ -4,7 +4,7 @@ import serviceAccount from './serviceAccountKey.json';
 
 const app = !getApps().length ? initializeApp({
   credential: cert(serviceAccount as ServiceAccount),
-  storageBucket: 'role-auth-10091.appspot.com',
+  storageBucket: 'xxxxxxxxxxxxxxxxxxx',
 }) : getApp();
 
 const bucket = getStorage(app).bucket();
